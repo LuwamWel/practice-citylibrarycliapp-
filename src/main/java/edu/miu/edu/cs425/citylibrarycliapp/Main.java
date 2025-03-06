@@ -12,7 +12,8 @@ public class Main {
         var publishers = List.of(
                 new Publisher(101, "McGraw-hill", "mcgraw.com",null ),
                 new Publisher(102, "Apress", "apress.com","123-456-7899" ),
-                new Publisher(101, "penguine", "penguine.com",null )
+                new Publisher(103, "penguine", "penguine.com",null ),
+                new Publisher(104, "Addison-wesley", "Addison-wesley.com","124-865-9754" )
         );
 
         publishers.forEach(System.out::println);
